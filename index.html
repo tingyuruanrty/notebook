@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>notebook homepage</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background-color: #f4f4f4;
+      }
+
+      header {
+        background-color: #d3d3d3;
+        padding: 20px 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 1vh;
+      }
+
+      h1 {
+        margin: 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Tingyu's note</h1>
+
+      <nav>
+        <a href="">discord</a> <a href="">please tell if there's any issues</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="sidebar bar" id="left">
+        <a href="tools/terminal-git-bash"><h3>tools</h3></a>
+        <a href="tools/terminal-git-bash"><h3>c++</h3></a>
+        <a href="tools/terminal-git-bash"><h3>java</h3></a>
+        <a href="tools/terminal-git-bash"><h3>linux</h3></a>
+        <a href="tools/terminal-git-bash"><h3>front end</h3></a>
+        <a href="tools/terminal-git-bash"><h3>chinese</h3></a>
+        <a href="tools/terminal-git-bash"><h3>hardware</h3></a>
+        <a href="tools/terminal-git-bash"><h3>IDE trick</h3></a>
+      </div>
+
+      <div class="middlebar bar">
+        the most basic use of git(local repository) and github(remote
+        repository) three steps: 1 add equals to add button in the branching
+        interface of code space what actually did is add the file to the track
+        list, tell the git that we want to track the change of this file, the
+        reason is there might have multiple file in a directory, we might only
+        want to track some of them code: git add filename.suffix add won't
+        affect the content of repository 2 commit the first big blue button in
+        the branching interface of code space commit would actually put the file
+        in the repository(not exactly, think it as took photos and record
+        difference between photos) with a message we assigned, the message is
+        mandatory, we can't commit without message. the message is really
+        important, because it would be the only thing that make sense in the log
+        code: git commit -m "message" commit would save the changes and store it
+        in the local repository 3 push (pull(they have same syntax, the pull is
+        update the local repo to remote repo, which is converse to push)) be
+        eclipsed beside the big blue button in the branching interface of code
+        space if the branch doesn't exist in remote repo, it would create it in
+        remote repo, the default repo name is origin, the name for main branch
+        is main notice: we need to have the branch on local repo code: git push
+        -u reponame branchname "-u" is optional, with -u, we don't need to
+        specify the reponame and branch anymore, really useful push would hand
+        in the content of local repository to the remote repository (edited)
+      </div>
+
+      <div class="sidebar bar" id="right">
+        <a href="tools/terminal-git-bash"><h3>terminal-git-bash</h3></a>
+        <a href="tools/terminal-git-bash"><h3>gpp</h3></a>
+        <a href="tools/terminal-git-bash"><h3>makefile</h3></a>
+        <a href="tools/terminal-git-bash"><h3>cmake</h3></a>
+        <a href="tools/terminal-git-bash"><h3>inno setup</h3></a>
+        <a href="tools/terminal-git-bash"><h3>shell script</h3></a>
+        <a href="tools/terminal-git-bash"><h3>batch script</h3></a>
+      </div>
+    </main>
+  </body>
+</html>

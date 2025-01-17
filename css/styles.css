@@ -1,0 +1,40 @@
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: start;
+}
+
+.bar{
+    
+    border-radius: 10px;
+    background-color: #d3d3d3;
+}
+
+.middlebar{
+    width: 60vw;
+}
+
+.sidebar{
+    
+    background-color: #d3d3d3;
+    
+}
+
+#left{
+    width: 8vw;
+    margin-left: 4vw;
+    padding-left: 2vw;
+}
+
+#right{
+    width: 12vw;
+    margin-right: 4vw;
+    padding-left: 2vw;
+}
+
+
+
+a{
+    color: black;
+}
