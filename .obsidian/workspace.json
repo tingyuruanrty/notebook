@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "22c01880527277f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "2eec1d20bd30af84",
+        "type": "tabs",
+        "dimension": 63.70967741935484,
+        "children": [
+          {
+            "id": "ae735db810579cdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "html/Glossary.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Glossary"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a0576eadfdc564cd",
+        "type": "tabs",
+        "dimension": 36.29032258064516,
+        "children": [
+          {
+            "id": "a07cad70c949e265",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a8bd050517bea8fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "681f753bbf45f5df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68fd89d713a8b48d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "21d0eeac3c0cca35",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8a8c10193e5d5613",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7ec107d5e4329d7f",
+    "type": "split",
+    "children": [
+      {
+        "id": "4cd34dfd81c92e5f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ff9ca06e99c4474",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Untitled"
+            }
+          },
+          {
+            "id": "8543c0b375b5cb62",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Untitled.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled"
+            }
+          },
+          {
+            "id": "d52a2a3263cea134",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e36a01bcbdc54e2e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ae735db810579cdf",
+  "lastOpenFiles": [
+    "README.md",
+    "New folder",
+    "html/Glossary.md",
+    "Untitled.md",
+    "Untitled",
+    "html",
+    "Welcome.md",
+    "sourceAttachment/Pasted image 20250123141029.png",
+    "sourceAttachment",
+    "s",
+    "Pasted image 20250123140035.png"
+  ]
+}
